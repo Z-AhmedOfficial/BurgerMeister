@@ -70,7 +70,7 @@ export default function Cards({ id, image, title, paragraph, rating, price }) {
                 <i className="bi bi-bag me-2"></i>
                 Add To Cart
               </button>
-              {cart > 0 && <p>Items in cart: {cart}</p>}
+              {cart > 0 && <p>Items in cart: {modalQuantity}</p>}
             </div>
           </div>
         </Card.Body>
