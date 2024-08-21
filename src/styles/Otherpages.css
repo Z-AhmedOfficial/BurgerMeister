@@ -1,0 +1,633 @@
+/* Checkout.css */
+.checkout-container {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.checkout-header h1 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.checkout-items {
+  border-top: 2px solid #dee2e6;
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.checkout-item {
+  border-bottom: 1px solid #dee2e6;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.checkout-item img {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.checkout-item-details {
+  flex: 1;
+}
+
+.checkout-item-title {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #495057;
+}
+
+.checkout-item-price,
+.checkout-item-quantity {
+  font-size: 1rem;
+  color: #6c757d;
+  margin: 5px 0;
+}
+
+.payment-method {
+  text-align: center;
+}
+
+.payment-method h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.payment-method form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.payment-method input[type="text"],
+.payment-method input[type="number"],
+.payment-method input[type="submit"] {
+  padding: 12px;
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.payment-method input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.payment-method input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.divvy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+/* Homies Button Styles */
+.home {
+  padding: 15px 20px;
+  background-color: #b80600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home:hover {
+  background-color: #000;
+}
+
+.div_moreitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.moreitem{
+  padding: 15px;
+  background-color: #b80600;
+  color: #fff;
+  position: relative;
+  top: -85px;
+  margin: 5px;
+  right: 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Container {
+  padding: 20px;
+}
+
+/* Main container for fries */
+.Fries_main {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Fries_main_2 {
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.Fries_main img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.Fries_main:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+.Fries_main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.Fries_main p {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Fries_main p:last-of-type {
+  font-weight: 700;
+  color: #e74c3c;
+}
+
+.btn_div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.logo .homies {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.logo .homies:hover {
+  background-color: #c0392b;
+  transform: scale(1.03);
+}
+
+.crazebur {
+  font-size: 2rem;
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+.paracraze {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+/* Container for the contact form */
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.contact-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Description styling */
+.contact-description {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between form elements */
+}
+
+/* Form group styling */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between label and input */
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-group textarea {
+  resize: vertical; /* Allows users to resize the textarea vertically */
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center; /* Center the button in the form */
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+}
+
+/* Styling for the home button */
+.btns_div {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.homiess {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homiess:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .contact-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-description {
+    font-size: 1rem;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+  }
+
+  .homiess {
+    font-size: 1rem;
+  }
+}
+/* Container for the blog page */
+.blog {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+/* Blog container styling */
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.blog-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Container for blog posts */
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between each blog post */
+}
+
+/* Individual blog post styling */
+.blog-post {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-post:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Post title styling */
+.post-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Post date styling */
+.post-date {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* Post summary styling */
+.post-summary {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Read more link styling */
+.read-more {
+  font-size: 1rem;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #2980b9;
+}
+
+/* Home button styling */
+.btn_div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homie_new {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homie_new:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+  }
+
+  .post-summary {
+    font-size: 0.9rem;
+  }
+
+  .homie_new {
+    font-size: 1rem;
+  }
+}
+/* Main container for the About Us page */
+.about-us {
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+/* Container for the content */
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.about-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Description styling */
+.about-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6; /* Improves readability */
+}
+
+/* Section for history */
+.about-history {
+  margin-bottom: 30px;
+}
+
+.history-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.history-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6; /* Improves readability */
+}
+
+/* Section for values */
+.about-values {
+  margin-bottom: 30px;
+}
+
+.values-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.values-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.value-item {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.6; /* Improves readability */
+}
+
+/* Home button styling */
+.btn_div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homie {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.homie:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .history-title,
+  .values-title {
+    font-size: 1.2rem;
+  }
+
+  .history-description,
+  .value-item {
+    font-size: 0.9rem;
+  }
+
+  .homie {
+    font-size: 1rem;
+  }
+}
+/*SectionJustinEnd.css */
+
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -2px;
+}
+
+.col-md-3 {
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.burger-item {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-left: -30px;
+  margin-top: -50px;
+  background: #fff;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.burger-item img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
